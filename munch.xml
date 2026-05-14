@@ -3,12 +3,10 @@
 
     <remote name="katz-github"
             fetch="https://github.com/katz0609"
-            revision="16-qpr2"
             clone-depth="1" />
 
     <remote name="katz-codeberg"
             fetch="https://codeberg.org/katz0609"
-            revision="16-qpr2"
             clone-depth="1" />
 
     <!-- Device Tree -->
