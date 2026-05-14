@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="katz-github"
+            fetch="https://github.com/katz0609"
+            revision="16-qpr2"
+            clone-depth="1" />
+
+    <remote name="katz-codeberg"
+            fetch="https://codeberg.org/katz0609"
+            revision="16-qpr2"
+            clone-depth="1" />
+
+    <!-- Device Tree -->
+    <project
+        path="device/xiaomi/munch"
+        name="android_device_xiaomi_munch"
+        remote="katz-github"
+        revision="infinity" />
+
+    <!-- Vendor Tree -->
+    <project
+        path="vendor/xiaomi/munch"
+        name="android_vendor_xiaomi_munch"
+        remote="katz-github" />
+
+    <!-- Kernel -->
+    <project
+        path="kernel/xiaomi/munch"
+        name="android_kernel_xiaomi_munch"
+        remote="katz-github"
+        revision="e404" />
+
+    <!-- Firmware -->
+    <project
+        path="vendor/xiaomi/munch-firmware"
+        name="android_vendor_xiaomi_munch-firmware"
+        remote="katz-codeberg" />
+
+    <!-- Miui Camera -->
+    <project
+        path="vendor/xiaomi/miuicamera"
+        name="android_vendor_xiaomi_miuicamera"
+        remote="katz-codeberg" />
+
+    <!-- Dolby -->
+    <project
+        path="hardware/dolby"
+        name="android_hardware_dolby"
+        remote="katz-github"
+        revision="main" />
+
+    <!-- Hardware Xiaomi -->
+    <project
+        path="hardware/xiaomi"
+        name="LineageOS/android_hardware_xiaomi"
+        remote="github"
+        revision="lineage-23.2" />
+
+</manifest>
