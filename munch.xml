@@ -16,7 +16,7 @@
         path="device/xiaomi/munch"
         name="android_device_xiaomi_munch"
         remote="katz-github"
-        revision="infinity" />
+        revision="katzz" />
 
     <!-- Vendor Tree -->
     <project
@@ -29,7 +29,7 @@
         path="kernel/xiaomi/munch"
         name="android_kernel_xiaomi_munch"
         remote="katz-github"
-        revision="e404" />
+	revision="katz_e404" />
 
     <!-- Firmware -->
     <project
