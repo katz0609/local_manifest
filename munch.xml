@@ -58,4 +58,18 @@
         remote="github"
         revision="lineage-23.2" />
 
+    <!-- Custom Frameworks Base -->
+    <project
+        path="frameworks/base"
+        name="katz0609/frameworks_base"
+        remote="katz-github"
+        revision="katzz-base" />
+
+    <!-- Custom Settings -->
+    <project
+        path="packages/apps/Settings"
+        name="katz0609/packages_apps_Settings"
+        remote="katz-github"
+        revision="katzz-settings" />
+
 </manifest>
