@@ -21,28 +21,28 @@
         path="vendor/xiaomi/munch"
         name="android_vendor_xiaomi_munch"
         remote="katz-github"
-	revision="16-qpr1" />
+        revision="16-qpr1" />
 
     <!-- Kernel -->
     <project
         path="kernel/xiaomi/munch"
         name="android_kernel_xiaomi_munch"
         remote="katz-github"
-	revision="katz_e404" />
+        revision="katz_e404" />
 
     <!-- Firmware -->
     <project
         path="vendor/xiaomi/munch-firmware"
         name="android_vendor_xiaomi_munch-firmware"
         remote="katz-codeberg"
-	revision="vic" />
+        revision="vic" />
 
     <!-- Miui Camera -->
     <project
         path="vendor/xiaomi/miuicamera"
         name="android_vendor_xiaomi_miuicamera"
         remote="katz-codeberg"
-	revision="vic" />
+        revision="vic" />
 
     <!-- Dolby -->
     <project
@@ -57,6 +57,10 @@
         name="LineageOS/android_hardware_xiaomi"
         remote="github"
         revision="lineage-23.2" />
+
+    <!-- Remove existing projects -->
+    <remove-project name="Evolution-X/frameworks_base" />
+    <remove-project name="Evolution-X/packages_apps_Settings" />
 
     <!-- Custom Frameworks Base -->
     <project
